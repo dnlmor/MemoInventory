@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Memo List Styles */
+.memo-sack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Memo Card Styles */
+.memo-card {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.memo-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.memo-button {
+  background: #00bfa5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.memo-button:hover {
+  background: #009b88;
+}
